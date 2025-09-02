@@ -1,4 +1,4 @@
-# [Assignment_1]
+# Assignment_1
 
 ## Assignment 1
 
