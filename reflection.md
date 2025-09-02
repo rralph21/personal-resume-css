@@ -37,5 +37,17 @@ The above syntax represents the character set and the title "Resume"
 5. < ol> < /ol> : Ordered list
 
 
+## Code Challenges
 
+The lack of html experience has made a basic assignment very time consuming due to the constant review of notes.
+Making sure that my headers are uniformed and my lists are well structured took more time than expected.
+
+## Approach
+
+What would I do Different?
+ - I would create a diagram mapping exactly what style and structure I would do. Create a cheat sheet of all Elements to save time, instead of going back and forth to my notes. 
+ 
+ ## Conclusion
+
+Overall, it was a fun assignment having no limitation on what I can come up with as a newbie developer. This will only improve as I gain experience and knowledge. 
 
