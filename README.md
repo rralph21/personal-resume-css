@@ -12,8 +12,8 @@ Ralph Vitug
 
 ## Assignment Description
 
-Assignment 1 will demonstrate our creativity and basic knowledge on HTML.
-It will highlight the fundamentals of structuring a proper HTML documents.
+Assignment 1 will demonstrate our creativity and basic knowledge of HTML.
+It will highlight the fundamentals of structuring a proper HTML document.
 
 ## Requirements
 
