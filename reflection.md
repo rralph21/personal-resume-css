@@ -4,10 +4,10 @@
 
 1. Code functionality.
 
-<!-- --> : Comment symbol. This comment symbol works in both single line and multi line comments
+"<!-- -->" : Comment symbol. This comment symbol works in both single line and multi line comments
 short cut (ctrl + /) for comments
 
-<!-- <!DOCTYPE html> --> : This is to initialize the type of Document to be used, html is used in this instance. 
+"<!DOCTYPE html>" : This is to initialize the type of Document to be used, html is used in this instance. 
 <!--<html lang="eng"> -->: This is the official language used. "eng" for English
 
 <!--<head>
