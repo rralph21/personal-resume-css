@@ -37,3 +37,7 @@ In this section of the assignment, a reflection document will explain the proces
 ## Assignment 2
 
 This assignment will enhance assignment 1 using css styling
+
+## Author
+
+Ralph Vitug
