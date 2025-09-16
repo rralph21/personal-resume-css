@@ -31,3 +31,9 @@ It will highlight the fundamentals of structuring a proper HTML document.
 ## Code Review and Reflection
 
 In this section of the assignment, a reflection document will explain the process of creating the HTML and the thought process of each steps.
+
+# Assignment_2
+
+## Assignment 2
+
+This assignment will enhance assignment 1 using css styling
