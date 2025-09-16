@@ -41,3 +41,5 @@ This assignment will enhance assignment 1 using css styling
 ## Author
 
 Ralph Vitug
+
+## Assignment Description
