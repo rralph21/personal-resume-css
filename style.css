@@ -1,14 +1,39 @@
 header {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 header img {
   border-radius: 20%;
+  
 }
 
 header h3 {
-  margin: 1;
+  margin-top: -2.5%;
   font-weight: normal;
-  color: #666;
+  color: black;
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px auto;
+  max-width: 700px;
+  background: wheat;
+  line-height: 1.6;
+  color: #333;
+}
+
+body h3 {
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.two-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.two-columns > div {
+  flex: 1;
 }
