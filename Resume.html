@@ -4,111 +4,88 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Resume</title>
+
+		 <link rel="stylesheet" href="styles.css">
+
+  		<style>
+    		header h1 {
+      					color: #0055aa; 
+    			}
+
+    		footer {
+      				font-size: 0.9rem;
+      				color: #777;
+    			}
+		</style>
 	</head>
 	<body>
-		<img src="Wendy.jpg" alt="Resume image" height="150" width="150">
-		<h2> Wendy W </h2>
-		<h5> Web and app Developer </h5>
-		<h3>
-			Contact Information
-		</h3>
-		<ul>
-			<li>Email address: rralph@rrc.ca</li>
-			<li>Phone #: 204-222-2222</li>
-			<li>Work Phone #: 204-222-2223</li>
-			<li>Address: Never Land, Winnipeg MB</li>
-		</ul>
+		<header>
+    <img src="Wendy.jpg" alt="Resume image" height="120" width="120">
+    <h1>Wendy W</h1>
+    <h3>Web and App Developer</h3>
+  </header>
 
-		<h3> Summary </h3>
-		<p> Motivated developer with a purpose. </p>
-		<p> 
-			My goal is to develop applications and Web that will help the community
-			and innovate the health care industry
-		</p>
-		<h3> Education </h3>
-		<ul>
-			<li> Sisler Highschool : 2009 - 2011</li>
-			<li> Herzing College : 2011 - 2012 </li>
-			<li> Red River College : 2024 - 2027</li>
-		</ul>
+  <section class="two-columns">
+    <div>
+      <h2>Contact Information</h2>
+      <ul>
+        <li>Email: rralph@rrc.ca</li>
+        <li>Phone: 204-222-2222</li>
+        <li>Work Phone: 204-222-2223</li>
+        <li>Address: Never Land, Winnipeg MB</li>
+      </ul>
+    </div>
 
-		<h3> Work Experience </h3>
-		<h5> Pharmacy Technician : 2011 - Present </h5>
-		<ul>
-			<li>
-				Process prescription within Pharmaceutical regulations
-			</li>
-			<li>
-				Assemble Compliance packaging with precision and efficiency
-			</li>
-			<li>
-				Provide Opiate Antagonist Therapy
-			</li>
-			<li>
-				Adhere to Personal Health Information Act.
-			</li>
-			<li>
-				Collaborate with Health care professionals
-			</li>
-		</ul>
-		<h5> Technical Support Representative : 2019 - 2021</h5>
-		<ul>
-			<li>
-				Trouble shooting walk through with clients
-			</li>
-			<li>
-				Maintain Network health
-			</li>
-			<li>
-				Check network speed using software and tools
-			</li>
-			<li>
-				Escalate incident tickets accordingly
-			</li>
-		</ul>
+    <div>
+      <h2>About Me</h2>
+      <p>Motivated developer passionate about building applications and websites that improve community well-being and innovate within the health care industry.</p>
+    </div>
+  </section>
 
-		<h3> Skills and Qualifications </h3>
-		<ul>
-			<li>
-				Mongo DB certified
-			</li>
-			<li>
-				Advance knowledge in SQL and non-SQL
-			</li>
-			<li>
-				Python
-			</li>
-			<li>
-				MariaDB
-			</li>
-			<li>
-				Notepad ++
-			</li>
-			<li>
-				CLI and GUI
-			</li>
-			<li>
-				KUBUNTU and LINUX
-			</li>
-			<li>
-				Figma
-			</li>
-			<li>
-				Virtual Studio Code
-			</li>
-			<li>
-				Information Technology Service Management
-			</li>
-			<li>
-				Information Technology Infrastructure Library
-			</li>
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>MongoDB</span>
+      <span>SQL & NoSQL</span>
+      <span>Python</span>
+      <span>MariaDB</span>
+      <span>Linux</span>
+      <span>Figma</span>
+      <span>Visual Studio Code</span>
+      <span>ITSM</span>
+      <span>ITIL</span>
+    </div>
+  </section>
 
-		</ul>
-		<h4> Ongoing Project</h4>
-		<p> In collaboration with Project ECHO of Shared health</p>
-		<p> An idea turned into a vision of connecting different services that will pave a path towards sobriety.</p>
-		<a href=" https://mb360.ca/">Centralized Database for OAT</a>
-		
-		<h5> Thank you for your time and consideration </h5>
+  <section>
+    <h2>Experience</h2>
+    <h3>Pharmacy Technician (2011 - Present)</h3>
+    <ul>
+      <li>Process prescriptions in compliance with pharmaceutical regulations</li>
+      <li>Assemble compliance packaging with precision and efficiency</li>
+      <li>Provide Opiate Antagonist Therapy</li>
+      <li>Adhere to the Personal Health Information Act</li>
+      <li>Collaborate with health care professionals</li>
+    </ul>
+
+    <h3>Technical Support Representative (2019 - 2021)</h3>
+    <ul>
+      <li>Guided clients through troubleshooting processes</li>
+      <li>Maintained network performance and health</li>
+      <li>Tested and monitored network speed using diagnostic tools</li>
+      <li>Escalated incident tickets as required</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ongoing Project</h2>
+    <p>In collaboration with Project ECHO of Shared Health</p>
+    <p>An idea turned into a vision of connecting services to support sobriety.</p>
+    <p><a href="https://mb360.ca/">Centralized Database for OAT</a></p>
+  </section>
+
+  <footer>
+    <p>Thank you for your time and consideration.</p>
+  </footer>
 	</body>
 </html>
