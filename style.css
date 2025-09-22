@@ -29,13 +29,20 @@ body h3 {
     text-decoration: underline;
 }
 
-.two-columns {
-  display: flex;
-  gap: 20px;
+@media (max-width: 760px) 
+    {.two-columns {
+        display: flex;
+        gap: 20px;
+    }
 }
 
 .two-columns > div {
   flex: 1;
+}
+
+.two-columns {
+  display: flex;
+  gap: 20px;
 }
 
 .education {
@@ -44,5 +51,61 @@ body h3 {
 
 .education ul {
     list-style: none;
-    
+}
+
+ul.skills li {
+  display: inline-block;
+  background: #eee;
+  margin: 5px;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.work-experience h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.experience-container {
+  display: flex;
+  gap: 20px;
+}
+
+.experience-container .job {
+  flex: 1;
+  background: #fff8e7;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.experience-container h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #0077cc;
+}
+
+.experience-container h3 span {
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.experience-container ul {
+  padding-left: 20px;
+}
+
+.experience-container li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .experience-container {
+    flex-direction: column;
+  }
 }
