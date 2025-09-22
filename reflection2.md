@@ -25,3 +25,19 @@ max-width - sets maximum width of an element.
 width / height -  sets element size.
 @media - applies styles depending on screen size
 list-style - controls list markers (bullets, numbers, none).
+
+## Code challenges
+
+Similar to assignment 1, the main challenge that I had on this assignment is time management since 
+I need more time to look over the notes and use resources like w3schools.
+
+## Approach
+
+What would I do Different?
+I would honestly create a diagram to clearly layout the design of the enhancement that I wanted to do with my resume.
+Also to have a clear plan.
+
+## Conclusion
+
+Assignment 2 did not feel like an assignment but an exercise on creativity. Looking forward on enhancing my knowledge on HTML, CSS
+and future projects.
