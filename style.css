@@ -53,14 +53,6 @@ body h3 {
     list-style: none;
 }
 
-ul.skills li {
-  display: inline-block;
-  background: #eee;
-  margin: 5px;
-  padding: 6px 12px;
-  border-radius: 20px;
-}
-
 .work-experience h2 {
   font-weight: bold;
   font-size: 1.8rem;
@@ -108,4 +100,13 @@ ul.skills li {
   .experience-container {
     flex-direction: column;
   }
+}
+
+.skills span {
+  display: inline-block;
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 5px 0 0;
+  font-size: 0.9rem;
 }
